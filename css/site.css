@@ -1,13 +1,284 @@
 body {
-	background-color: red;
+   padding: 0px 0 50px 0;
+   font-size: 16px;
+   min-height: 100%;
 }
 
 h1 {
-color: orange;
-text-align: center;
+   font-size: 52px;
+   line-height: 60px;
+   margin: 0px 0px 15px 0px;
+   font-weight: 700;
+   font-style: normal;
+   font-family: "Playfair Display";
 }
 
+h2 {
+   font-size: 36px;
+   line-height: 46px;
+   margin: 0px 0px 25px 0px;
+   font-family: "Playfair Display";
+   font-weight: 400;
+   font-style: normal;
+}
+
+h3 {
+   font-size: 28px;
+   line-height: 36px;
+   margin: 0px 0px 19px 0px;
+   font-family: "Playfair Display";
+   font-weight: 400;
+   font-style: normal;
+}
+
+h4 {
+   margin-bottom: 25px;
+   font-weight: 400;
+   font-style: normal;
+   font-family: Inconsolata;
+}
 
 p {
-	font-size: 50px;
+   margin: 0px 0px 25px 0px;
+   text-transform: inherit;
+   font-size: 18px;
+   font-family: "Karla";
+   font-weight: 400;
+   font-style: normal;
+   line-height: 26.89px;
 }
+
+p.intro {
+   font-size: 22px;
+   line-height: 32px;
+   margin: 0px 0px 13px 0px;
+   font-family: Karla;
+   font-weight: 400;
+   font-style: normal;
+   width: 722.703125px;
+}
+
+blockquote.pull-quote {
+   margin: 0em 1em 1em 0em;
+   border-left: 3px solid #ccc;
+   padding: 0em 0em 0em 0.7em;
+}
+
+div.content {
+   margin: 0 auto;
+   text-align: left;
+   width: 60%;
+   padding: 50px 0px 0px 0px;
+}
+
+h5 {
+   margin: 0px 0px 25px 0px;
+   font-family: "Karla";
+   font-weight: 700;
+   font-style: normal;
+}
+
+p.quote {
+   font-size: 26px;
+   line-height: 32px;
+   font-style: normal;
+   color: #666666;
+   margin: 0px;
+   font-family: Inconsolata;
+   font-weight: 400;
+}
+
+blockquote {
+   font-size: 26px;
+   line-height: 37px;
+   margin-bottom: 25px;
+}
+
+h1 a {
+}
+
+h1 a:hover {
+}
+
+h1 a:visited {
+}
+
+h5 a {
+}
+
+h5 a:hover {
+}
+
+h5 a:visited {
+}
+
+p.intro a {
+}
+
+p.intro a:hover {
+}
+
+p.intro a:visited {
+}
+
+p a {
+}
+
+p a:hover {
+}
+
+p a:visited {
+}
+
+p.quote a {
+}
+
+p.quote a:hover {
+}
+
+p.quote a:visited {
+}
+
+h4 a {
+}
+
+h4 a:hover {
+}
+
+h4 a:visited {
+}
+
+h2 a {
+}
+
+h2 a:hover {
+}
+
+h2 a:visited {
+}
+
+h3 a {
+}
+
+h3 a:hover {
+}
+
+h3 a:visited {
+}
+
+br {
+}
+
+
+
+
+
+
+/* mobile ----------- */
+@media only screen and (max-width: 480px){
+
+h1 {
+   font-size: 36px;
+   line-height: 48px;
+}
+
+h2 {
+   font-size: 30px;
+   line-height: 40px;
+}
+
+h3 {
+   font-size: 24px;
+   line-height: 30px;
+}
+
+h4 {
+   font-size: 15px;
+}
+
+p {
+   font-size: 14px;
+   line-height: 25.89px;
+}
+
+p.intro {
+   font-size: 15px;
+   width: 252.40625px;
+}
+
+h5 {
+   font-size: 15px;
+}
+
+p.quote {
+   font-size: 18px;
+   line-height: 28px;
+}
+
+h5 a {
+}
+
+h5 a:hover {
+}
+
+h5 a:visited {
+}
+
+p.intro a {
+}
+
+p.intro a:hover {
+}
+
+p.intro a:visited {
+}
+
+p a {
+}
+
+p a:hover {
+}
+
+p a:visited {
+}
+
+p.quote a {
+}
+
+p.quote a:hover {
+}
+
+p.quote a:visited {
+}
+
+h4 a {
+}
+
+h4 a:hover {
+}
+
+h4 a:visited {
+}
+
+h2 a {
+}
+
+h2 a:hover {
+}
+
+h2 a:visited {
+}
+
+h3 a {
+}
+
+h3 a:hover {
+}
+
+h3 a:visited {
+}
+
+div.content {
+   width: 251.125px;
+}
+
