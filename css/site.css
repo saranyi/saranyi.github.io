@@ -1,3 +1,19 @@
+main {
+ /*  border: 1px solid black; */
+   max-width: 720px;
+   margin: auto;
+   height: 100%;
+}
+
+header {
+   border: 1px solid red;
+}
+
+nav {
+   margin: 100px 0px 10px 0px;
+}
+
+
 body {
    padding: 0px 0 50px 0;
    font-size: 16px;
@@ -5,12 +21,13 @@ body {
 }
 
 h1 {
-   font-size: 52px;
-   line-height: 60px;
+   font-size: 38px;
+   line-height: 56px;
    margin: 0px 0px 15px 0px;
-   font-weight: 700;
+   font-weight: 500;
    font-style: normal;
    font-family: "Playfair Display";
+   color: #FF1D25;
 }
 
 h2 {
@@ -27,7 +44,6 @@ h3 {
    line-height: 36px;
    margin: 0px 0px 19px 0px;
    font-family: "Playfair Display";
-   font-weight: 400;
    font-style: normal;
 }
 
@@ -36,6 +52,33 @@ h4 {
    font-weight: 400;
    font-style: normal;
    font-family: Inconsolata;
+}
+
+h5 {
+   font-size: 18px;
+   line-height: 24px;
+   margin: 0px 0px 15px 0px;
+   font-style: normal;
+   font-family: "Inconsolata";
+   color: #FF8888;
+}
+
+ul {
+   margin: 0px 0px 25px 0px;
+   text-transform: inherit;
+   font-size: 18px;
+   line-height: 26px;
+   font-family: "Karla";
+   font-weight: 400;
+   font-style: normal;
+   list-style:square;
+   color: #FF1D25;
+}
+
+li span {
+   display:block;
+   color: #000000;
+   margin-left: 8px;
 }
 
 p {
@@ -94,83 +137,17 @@ blockquote {
    margin-bottom: 25px;
 }
 
-h1 a {
+img {b
+   border: 1px solid black;
+   max-width: 720px;}
+
+.a {
+   margin-top: 80px;
 }
 
-h1 a:hover {
+.b {
+   margin-top: 80px;
 }
-
-h1 a:visited {
-}
-
-h5 a {
-}
-
-h5 a:hover {
-}
-
-h5 a:visited {
-}
-
-p.intro a {
-}
-
-p.intro a:hover {
-}
-
-p.intro a:visited {
-}
-
-p a {
-}
-
-p a:hover {
-}
-
-p a:visited {
-}
-
-p.quote a {
-}
-
-p.quote a:hover {
-}
-
-p.quote a:visited {
-}
-
-h4 a {
-}
-
-h4 a:hover {
-}
-
-h4 a:visited {
-}
-
-h2 a {
-}
-
-h2 a:hover {
-}
-
-h2 a:visited {
-}
-
-h3 a {
-}
-
-h3 a:hover {
-}
-
-h3 a:visited {
-}
-
-br {
-}
-
-
-
 
 
 
@@ -214,71 +191,8 @@ p.quote {
    font-size: 18px;
    line-height: 28px;
 }
-
-h5 a {
-}
-
-h5 a:hover {
-}
-
-h5 a:visited {
-}
-
-p.intro a {
-}
-
-p.intro a:hover {
-}
-
-p.intro a:visited {
-}
-
-p a {
-}
-
-p a:hover {
-}
-
-p a:visited {
-}
-
-p.quote a {
-}
-
-p.quote a:hover {
-}
-
-p.quote a:visited {
-}
-
-h4 a {
-}
-
-h4 a:hover {
-}
-
-h4 a:visited {
-}
-
-h2 a {
-}
-
-h2 a:hover {
-}
-
-h2 a:visited {
-}
-
-h3 a {
-}
-
-h3 a:hover {
-}
-
-h3 a:visited {
-}
-
 div.content {
    width: 251.125px;
 }
+
 
