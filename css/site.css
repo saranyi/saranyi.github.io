@@ -1,16 +1,14 @@
 main {
- /*  border: 1px solid black; */
-   max-width: 720px;
+   max-width: 760px;
    margin: auto;
    height: 100%;
 }
 
 header {
-   border: 1px solid red;
 }
 
 nav {
-   margin: 100px 0px 10px 0px;
+   margin: 100px 0px 40px 0px;
 }
 
 
@@ -20,11 +18,19 @@ body {
    min-height: 100%;
 }
 
+footer {
+   padding: 50px 0 20px 0;
+   max-width: 760px;
+   margin: auto;
+   height: 100%;
+   text-align: center; 
+}
+
 h1 {
    font-size: 38px;
    line-height: 56px;
    margin: 0px 0px 15px 0px;
-   font-weight: 500;
+   font-weight: 300;
    font-style: normal;
    font-family: "Playfair Display";
    color: #FF1D25;
@@ -43,8 +49,10 @@ h3 {
    font-size: 28px;
    line-height: 36px;
    margin: 0px 0px 19px 0px;
+   font-weight: 300;
    font-family: "Playfair Display";
-   font-style: normal;
+   font-style: italic;
+   color: #FF1D25;
 }
 
 h4 {
@@ -88,7 +96,7 @@ p {
    font-family: "Karla";
    font-weight: 400;
    font-style: normal;
-   line-height: 26.89px;
+   line-height: 28px;
 }
 
 p.intro {
@@ -114,13 +122,6 @@ div.content {
    padding: 50px 0px 0px 0px;
 }
 
-h5 {
-   margin: 0px 0px 25px 0px;
-   font-family: "Karla";
-   font-weight: 700;
-   font-style: normal;
-}
-
 p.quote {
    font-size: 26px;
    line-height: 32px;
@@ -137,18 +138,57 @@ blockquote {
    margin-bottom: 25px;
 }
 
-img {b
-   border: 1px solid black;
-   max-width: 720px;}
+img {
+   margin: 10px 0px 10px 0px;
+   max-width: 760px;}
 
 .a {
-   margin-top: 80px;
+   margin-top: 60px;
 }
 
 .b {
    margin-top: 80px;
 }
 
+.c {
+   margin-top: 40px;
+}
+
+#R {
+    float: left;
+ }
+
+#R {
+    float: right;
+}
+
+a {
+text-decoration: none;
+color:#FF1D25;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+
+hr.style3 {
+    border: none;
+    background-color: #FF8888;
+    color: #FF8888;
+    height: 1px;
+}
+
+  .footer {
+   padding: 50px 0 20px 0;
+   max-width: 760px;
+   max-width: 760px;
+   text-align: center; 
+  }
 
 
 /* mobile ----------- */
@@ -194,5 +234,6 @@ p.quote {
 div.content {
    width: 251.125px;
 }
+
 
 
